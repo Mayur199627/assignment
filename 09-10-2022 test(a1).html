@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Please Fill Your Details</h1>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+        <form action=""><fieldset>
+            <div><label for="First Name">First Name :</label><br>
+            <input type="text" required id="h1"></div><br>
+            <div><label for="Middle Name">Middle Name :</label><br>
+            <input type="text"></div><br>   
+            <div><label for="Last Name">Last Name :</label><br>
+            <input type="text"></div><br>
+            <div><label for="Gender" aria-required="true">Gender :</label><br>
+            <input type="Radio" name=Gender>Male<input type="radio" name=Gender>Female<input type="radio" name=Gender>Others</div><br>
+            <div><label for="DOB">Date Of Birth :</label><br>
+            <input type="date" name="DOB"></div><br>
+            <div><label for="Qualification">Qualification :</label><br>
+            <select name="Qualification" required>
+                <option value="">Choose</option>
+                <option value="">High School</option>
+                <option value="">Higher Secondary</option>
+                <option value="">Diploma</option>
+                <option value="">Graduate</option>
+                <option value="">Post Graduate</option>
+                <option value="">Ph.d Holder</option>
+            </select></div><br>
+            <div><label for="Citizen">Citizen :</label><br>
+            <input type="checkbox" name=Citizen>Indian<input type="checkbox" name=Citizen>NRI</div><br>
+            <div><label for="Email">Email :</label><br>
+            <input type="email"></div><br>
+            <div><label for="Conteact">Contact No. :</label><br>
+            <input type="text"></div><br>
+            <div><label for="Address">Address :</label><br>
+            <textarea name="Address" cols="20" rows="2"></textarea></div><br>
+            <div><label for="Register"></label></div>
+            <input type="submit" value="Sign-Up">
+        </form>
+    </div></fieldset>
+</body>
+</html>

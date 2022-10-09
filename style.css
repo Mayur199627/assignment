@@ -1,108 +1,105 @@
-h1 {
+h1{
+    text-align: center;
+    color:white;
+    background-color: #04AA6D;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
-    background-color: rgba(0, 162, 255, 0.534);
-    color: white;
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 350%;
 }
-div {
-    text-align: center;
-    
+fieldset {
+    border: groove 5px indigo;
 }
-[alt=paratha] {
-height: 150px;
-width: 150px;
-border:solid 10px;
-border-color: dodgerblue;
-margin-right: 50px;
-}
-[alt=dosa]{
-height: 150px;
-width: 150px;
-border:dashed 10px;
-border-color: rgba(0, 162, 255, 0.534);
-margin-right: 50px;
-}
-[alt=edli] {
-height: 150px;
-width: 150px;
-border:dotted 10px;
-border-color: rgba(0, 162, 255, 0.534);
-
-}
-[alt=edli] {
-height: 150px;
-width: 150px;
-border:dotted 10px;
-border-color: rgba(0, 162, 255, 0.534);
-}
-[alt=rasmalai] {
-height: 150px;
-width: 150px;
-border:groove 10px;
-border-color: rgba(0, 162, 255, 0.534);
-margin-top: 50px;
-margin-right: 50px;
-}
-[alt=ice] {
-height: 150px;
-width: 150px;
-border:ridge 10px;
-border-color: rgba(0, 162, 255, 0.534);
-}
-[alt=burger] {
-    height: 150px;
-    width: 150px;
-    border:double 10px;
-    border-color: rgba(0, 162, 255, 0.534);
-    margin-top: 50px;
-margin-right: 50px;
+input[type=text],input[type=email],input[type=date],input[type=checkbox],input[type=radio],textarea,select {
+    color: blue;
+    margin: 8px 2px;
+    border-radius: 10px;
+    border-color:violet;
     }
-    [alt=juice] {
-        height: 150px;
-        width: 150px;
-        border:none 10px;
-        border-color: rgba(0, 162, 255, 0.534);
-        }
-    .para {
-        background-color: violet;
-        margin-left: 250px;
-        width: 800px;
-        margin-top: 50px;
-        border: groove;
-        border-width: 10px;
-        border-left-color: aqua;
-        border-right-color: red;
-        border-top-color: greenyellow ;
-        border-bottom-color: blueviolet;
+    label{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:blue;
     }
-    #heading {
-        color: white;
-        font-size: 25px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+    form {
+        background-color: antiquewhite;
     }
-    p {
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
+input[type=submit] {
+    background-color: #04AA6D;
+     margin-left: 20px;
+        height: 35px;
+        width: 100px;
     }
-    .link {
+    #first {
+        background-color: black;
+        border-collapse: collapse;
+        padding: 5px; 
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+     #second {
+        background-color:#04AA6D;
+        padding: 30px;
+        font-display:inherit;
+        font-family:cursive;
+        font-size: 400%;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    #third {
+        color: rgba(0, 0, 0, 0.699);
+        margin-left: 200px;
         margin-top: 30px;
-        font-size: 30px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: brown;
+        font-size: 200%;
     }
-    #f {
-        color: aliceblue;
-        margin-right: 50px;
+    #ind1 {
+        width: 500px;
+        height: 30px;
+        margin-left: 200px;
+        border-radius: 5px;
     }
-    #i {
-        color: aliceblue;
-        margin-right: 50px;
+    #sb {
+        margin-left: 20px;
+        height: 35px;
+        width: 100px;
+        background-color: red;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 5px;
+        font-size: 100%;
     }
-    #t {
+    #fourth {
+        color: rgba(0, 0, 0, 0.699);
+        margin-left: 200px;
+        margin-top: 30px;
+        font-size: 200%;
+    }
+    table,
+    tr,td {
+        padding: 10px;
+        border: solid;
+        border-collapse: collapse;
+        margin-left: 200px;
+        color: rgba(0, 0, 0, 0.699);
+        width: 800px;
+        height: 30px;
+        border-radius: 200px;
+    }
+    #fifth{
+        margin-left: 650px;
+        background-color: red;
         color: aliceblue;
-        margin-right: 50px;
+        
+    }
+    #fifth1{
+        margin-left: 658px;
+        background-color: red;
+        color: white;
+    }
+    #fifth2{
+        margin-left: 615px;
+        background-color: red;
+        color: aliceblue;
+    }
+    #sixth{
+        color: aliceblue;
+        background-color: green;
     }
