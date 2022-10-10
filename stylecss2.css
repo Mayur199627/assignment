@@ -1,0 +1,66 @@
+h1 {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family:cursive;
+    font-size: 300%;
+}
+div {
+    text-align: center;
+    
+}
+[alt=webseries] {
+height: 300px;
+width: 300px;
+border-radius: 100%;
+}
+ 
+
+    .link {
+        margin-top: 30px;
+        font-size: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: brown;
+        padding: 30px;
+    }
+    #f {
+        color: aliceblue;
+        margin-right: 50px;
+    }
+    #i {
+        color: aliceblue;
+        margin-right: 50px;
+    }
+    #t {
+        color: aliceblue;
+        margin-right: 50px;
+    }
+    #m1{
+        width: 300px;
+        height: 50px;
+        margin-top: 70px;
+        color: aliceblue;
+        background-color: red;
+        box-shadow:initial;
+        font-size: 100%;
+    }
+    #m2{
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        color: blueviolet;
+        background-color: rgba(255, 0, 0, 0.192);
+        box-shadow:initial;
+        font-size: 100%;
+        
+    }
+    .name{
+        font-family:cursive;
+        width: 200px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 120%;
+    }
